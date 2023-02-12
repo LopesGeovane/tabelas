@@ -7,12 +7,17 @@
     <title>Tabelas</title>
     <link rel="shortcut icon" href="" type="image/x-icon">
     <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
         body{
             background-color: bisque;
         }
         section{
             font-size: 3em;
             text-align: right;
+            display: inline;
         }
         a{
             text-decoration: none;
@@ -20,26 +25,26 @@
             text-shadow: 0px 0px 15px rgb(110, 211, 79);
             text-transform: uppercase;
             font-family: Arial, Helvetica, sans-serif;
+            margin: 10px;
         }
         iframe{
-            position: absolute;
+            position: relative;
+            display: inline;
         }
 
     </style>
 </head>
 <body>
     <div>
-        <iframe src="" frameborder="0" width="1000px" height="600px" name="tabela" id="tabela">
+        <iframe src=""  width="900px" height="500px" name="tabela" id="tabela">
         </iframe>
     </div>
 
     <section>
         <a href="tabela.html" target="tabela">tabela1</a>
-        <br>
-        <br>
+    
         <a href="tabela2.html" target="tabela">tabela2</a>
-        <br>
-        <br>
+     
         <a href="tabela3.html" target="tabela"> tabela3</a>
     </section>
 
