@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    background-color: bisque;
+    padding: 30px;
+    overflow-x: auto;
+}
+
+table{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 15px black;
+}
+
+td,th{
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+td{
+    background-color:rgb(53, 53, 53);
+}
+
+th{
+    background-color:rgb(116, 115, 115);
+    font-weight: 900;
+}
+
+caption{
+    font-size: 3em;
+}

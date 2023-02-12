@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--
+        table = tabela
+            table row = linhas
+            table header = cabeçalho de tabela
+            table data = dados da tabela
+    -->
+
+    <div>
+        <table>
+            <caption>Esportes Favoritas</caption>
+            <colgroup>
+                <col class="c1">
+                <col class="c2">
+                <col class="c3">
+                <col class="c4">
+                <col class="c5">
+            </colgroup>
+            
+            <thead>
+                <tr>
+                    <th scope="col">GRUPOS</th>
+                    <th scope="col">NOMES</th>
+                    <th colspan="3" scope="colgroup">FILMES</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <th rowspan="3" scope="rowgroup">MULHERES</th>
+                        <td>Ana Maria Santos</td>
+                        <td>Basquete</td>
+                        <td>Volei</td>
+                        <td>Handboll</td>
+                    </tr>
+                    <tr>
+                        <td>Beatriz Souza</td>
+                        <td>Golf</td>
+                        <td>Tennis</td>
+                        <td>Esqui</td>
+                    </tr>
+                    <tr>
+                        <td>Cláudia Melo</td>
+                        <td>Natação</td>
+                        <td>Corrida</td>
+                        <td>Hóquei no gelo</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="3" scope="rowgroup">HOMENS</th>
+                        <td>Bruno Mendonça</td>
+                        <td>Baseboll</td>
+                        <td>Futbol Americano</td>
+                        <td>Basquete</td>
+                    </tr>
+                    <tr>
+                        <td>Daniel Lourenço</td>
+                        <td>Futebol</td>
+                        <td>Natação</td>
+                        <td>Volei</td>
+                    </tr>
+                    <tr>
+                        <td>Fabiano Mota</td>
+                        <td>Formula 1</td>
+                        <td>Hipismo</td>
+                        <td>Salto com vara</td>
+                    </tr>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+    </div>
